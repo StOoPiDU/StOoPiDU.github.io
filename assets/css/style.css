@@ -486,13 +486,25 @@ a.hoverline:hover {
   padding-bottom: 20px;
 }
 
-#skills .col img.responsive-img {
+/* #skills .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+} */
+
+#skills .col {
+  display: flex; /* Use flexbox to control the layout */
+  flex-direction: column; /* Stack the image and text vertically */
+  align-items: center; /* Center both image and text horizontally */
+  text-align: center; /* Center the text within its container */
+}
+
+#skills .col img.responsive-img {
+  max-height: 100px;
+  padding-bottom: 10px;
 }
 
 .card.large .card-content p {
