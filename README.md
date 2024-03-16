@@ -1,4 +1,4 @@
-# Personal Portfolio ⚡️
+# Personal Portfolio (Forked)⚡️
 > Forked from Varad's Portfolio Template. Check out and :star: is work if you're interested.
 
 > https://varadbhogayata.github.io
