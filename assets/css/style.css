@@ -512,7 +512,17 @@ a.hoverline:hover {
   height: 360px;
 }
 
+#collab-partners .card.large {
+  height: 360px;
+}
+
 #skills h4 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+#collab-partners h4 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -534,7 +544,19 @@ a.hoverline:hover {
   text-align: center; /* Center the text within its container */
 }
 
+#collab-partners .col {
+  display: flex; /* Use flexbox to control the layout */
+  flex-direction: column; /* Stack the image and text vertically */
+  align-items: center; /* Center both image and text horizontally */
+  text-align: center; /* Center the text within its container */
+}
+
 #skills .col img.responsive-img {
+  max-height: 100px;
+  padding-bottom: 10px;
+}
+
+#collab-partners .col img.responsive-img {
   max-height: 100px;
   padding-bottom: 10px;
 }
