@@ -539,6 +539,13 @@ a.hoverline:hover {
   padding-bottom: 10px;
 }
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
