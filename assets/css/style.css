@@ -512,7 +512,7 @@ a.hoverline:hover {
   height: 360px;
 }
 
-#collab-partners .card.large {
+#collab .card.large {
   height: 360px;
 }
 
@@ -522,7 +522,7 @@ a.hoverline:hover {
   padding-bottom: 20px;
 }
 
-#collab-partners h4 {
+#collab h4 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -544,7 +544,7 @@ a.hoverline:hover {
   text-align: center; /* Center the text within its container */
 }
 
-#collab-partners .col {
+#collab .col {
   display: flex; /* Use flexbox to control the layout */
   flex-direction: column; /* Stack the image and text vertically */
   align-items: center; /* Center both image and text horizontally */
@@ -556,7 +556,7 @@ a.hoverline:hover {
   padding-bottom: 10px;
 }
 
-#collab-partners .col img.responsive-img {
+#collab .col img.responsive-img {
   max-height: 100px;
   padding-bottom: 10px;
 }
