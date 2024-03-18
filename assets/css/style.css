@@ -558,11 +558,11 @@ a.hoverline:hover {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
 }
-/*
+
 #event .row {
   display: flex;
   align-items: center;
-} */
+}
 
 .card.large .card-image {
   height: 230px;
