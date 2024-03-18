@@ -556,19 +556,12 @@ a.hoverline:hover {
   align-items: center;
 } */
 
+/* Mobile View Image Centering */
 #event .center-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* @media (min-width: 768px) {
-  #event .center-image {
-    display: flex;
-    margin: auto;
-    align-items: center;
-  }
-} */
 
 @media (min-width: 768px) {
   #event .row {
