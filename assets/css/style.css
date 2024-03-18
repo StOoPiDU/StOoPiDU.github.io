@@ -540,9 +540,8 @@ a.hoverline:hover {
 }
 
 .center-image {
-  display: block;
+  display: flex;
   margin: auto;
-  align-items: center;
   /* margin-left: auto;
   margin-right: auto; */
 }
