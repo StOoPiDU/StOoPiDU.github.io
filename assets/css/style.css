@@ -578,7 +578,7 @@ a.hoverline:hover {
   align-items: center;
 } */
 
-/* Mobile View Image Centering */
+/* Mobile View Image Centering For Event Page*/
 #event .center-image {
   display: block;
   margin-left: auto;
@@ -587,6 +587,25 @@ a.hoverline:hover {
 
 @media (min-width: 768px) {
   #event .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .center-image {
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+#info .center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  #info .row {
     display: flex;
     align-items: center;
   }
