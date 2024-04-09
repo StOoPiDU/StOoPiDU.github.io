@@ -1,6 +1,5 @@
 # Personal Portfolio (Forked)⚡️
-> Forked from Varad's Portfolio Template. Check out and :star: is work if you're interested.
-
+> Forked from Varad's Portfolio Template. Check out and :star: their work if you're interested.
 > https://varadbhogayata.github.io
 
 ### Website Preview
