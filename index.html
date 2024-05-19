@@ -90,12 +90,30 @@
     <section id="intro" class="section scrollspy full-height">
       <div class="overlay"></div>
       <div class="container">
+        <div class="row">
+          <div class="col s12 m8 offset-m2">
+            <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">link</i>Link 1</div>
+                <div class="collapsible-body"><span>This is the description for Link 1. You can add more text or HTML elements here.</span><a href="#" target="_blank">Link 1</a></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">link</i>Link 2</div>
+                <div class="collapsible-body"><span>This is the description for Link 2. You can add more text or HTML elements here.</span><a href="#" target="_blank">Link 2</a></div>
+              </li>
+              <!-- Add more list items for additional links -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
         <div class="col-md-9">
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
               <h2>Hello, I am <span class="teal">Cedric Pereira.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#1e5ac9"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
               <h5>A creative mind that strives to bring his passions to life! From creating <b>FreeGameFindings</b>, to making my <b>own game</b>, to building my own <b>teams</b>, to creating my own <b>Android Application</b>. On top of that, I have run numerous campaigns with a large collection of partners that has lead to mutual growth for all parties.</h5>
             </div>
             <div class="social">
@@ -756,14 +774,14 @@
     </section>
   </main>
 
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Software Developer", "Project Manager", "Team Leader", "Creator", "Editor", "Marketer", "Communications Leader", "Event Planner", "Community Manager"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
+  <!-- Javascript -->
+  <script>
+    // Initialize the collapsible component
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems, {
+        accordion: false // Allow multiple sections to be open at once
+      });
     });
   </script>
 
