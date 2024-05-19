@@ -712,10 +712,11 @@ small {
     height: 64px;
     position: absolute;
   }
-  nav a.button-collapse, nav a.button-collapse i {
-    color: #0600c6;
-    height: 56px;
-    line-height: 56px;
+  nav.thin {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
   }
   h3 {
     padding: 20px 30px;
@@ -723,12 +724,6 @@ small {
   }
   .container {
     margin: 0 auto;
-  }
-  nav.thin {
-    display: block;
-    position: fixed;
-    top: 0;
-    z-index: 2;
   }
   .name-title {
     display: block;
