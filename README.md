@@ -1,18 +1,17 @@
-# Personal Portfolio (Forked)⚡️
-> Forked from Varad's Portfolio Template. Check out and :star: is work if you're interested.
+# A linktree alternative for /r/FreeGameFindings
+> A list of all the official Free Game Findings links and related platforms with some examples and and direct links to follow. Think a simply LinkTree website, but with included details when possible. 
 
-> https://varadbhogayata.github.io
+> Originally forked from Varad's Portfolio Template. Adjustments mande to better support mobile and create alternative pages to fit my needs. Check out the original and :star: their work if you're interested.
+> Original - https://varadbhogayata.github.io
+> My work - https://github.com/StOoPiDU/StOoPiDU.github.io
 
 ### Website Preview
 <p align="center">
   <kbd>
-    <a href="https://stoopidu.github.io/" target="_blank"><img src="examples/preview.JPG">
+    <a href="https://freegamefinsings.github.io/" target="_blank"><img src="examples/preview.JPG">
   </a>
   </kbd>
 </p>
-
-## Final Adjustments To Make 📦
-- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
 
 ## Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host the static website (HTML, CSS, JS).
