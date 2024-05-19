@@ -92,20 +92,29 @@
       <div class="container">
         <div class="row">
           <div class="col s12 m8 offset-m2">
-            <ul class="collapsible popout">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">link</i>Link 1</div>
-                <div class="collapsible-body"><span>This is the description for Link 1. You can add more text or HTML elements here.</span><a href="#" target="_blank">Link 1</a></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="material-icons">link</i>Link 2</div>
-                <div class="collapsible-body"><span>This is the description for Link 2. You can add more text or HTML elements here.</span><a href="#" target="_blank">Link 2</a></div>
-              </li>
-              <!-- Add more list items for additional links -->
-            </ul>
+            <div class="link-bar">
+              <div class="link-header">
+                <i class="material-icons">link</i>Link 1
+              </div>
+              <div class="link-body">
+                <p>This is the description for Link 1. You can add more text or HTML elements here.</p>
+                <a href="#" target="_blank">Link 1</a>
+              </div>
+            </div>
+            <div class="link-bar">
+              <div class="link-header">
+                <i class="material-icons">link</i>Link 2
+              </div>
+              <div class="link-body">
+                <p>This is the description for Link 2. You can add more text or HTML elements here.</p>
+                <a href="#" target="_blank">Link 2</a>
+              </div>
+            </div>
+            <!-- Add more link-bar divs for additional links -->
           </div>
         </div>
       </div>
+
 
 
 
@@ -776,11 +785,11 @@
 
   <!-- Javascript -->
   <script>
-    // Initialize the collapsible component
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {
-        accordion: false // Allow multiple sections to be open at once
+    // Toggle the link body when the header is clicked
+    document.querySelectorAll('.link-header').forEach(function(header) {
+      header.addEventListener('click', function() {
+        const linkBar = this.parentNode;
+        linkBar.classList.toggle('open');
       });
     });
   </script>

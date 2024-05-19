@@ -344,25 +344,38 @@ h3 {
   min-height: 100vh;
 }
 
-/* Style the collapsible header */
-.collapsible-header {
+/* Style the link bar */
+.link-bar {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the link header */
+.link-header {
   display: flex;
   align-items: center;
   background-color: #2196f3;
   color: #fff;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
 }
 
-/* Style the collapsible body */
-.collapsible-body {
-  background-color: #f5f5f5;
+/* Style the link body */
+.link-body {
   padding: 1rem;
-  border-radius: 4px;
+  display: none;
+}
+
+/* Show the link body when the header is clicked */
+.link-bar.open .link-body {
+  display: block;
 }
 
 /* Style the link */
-.collapsible-body a {
+.link-body a {
   display: block;
   margin-top: 1rem;
   color: #2196f3;
