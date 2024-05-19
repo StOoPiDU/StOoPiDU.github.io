@@ -702,11 +702,6 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
-  ul.side-nav a {
-    line-height: 100%;
-    padding: 0;
-    width: 100%;
-  }
   nav {
     background: #fff;
     height: 64px;
