@@ -207,16 +207,11 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
-  box-shadow: none;
-  height: 0;
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
-
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
 
 nav i {
   padding: 0 15px;
@@ -257,22 +252,6 @@ ul.side-nav {
 
 ul.side-nav li {
   padding: 0;
-}
-
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
-
-ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(16, 202, 56);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
 }
 
 ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
