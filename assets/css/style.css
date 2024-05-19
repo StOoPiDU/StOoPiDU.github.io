@@ -151,6 +151,26 @@
   color: #1e5ac9;
   background-color: white;
 }
+
+.link-bar {
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.link-bar:hover{
+  color: #1e5ac9;
+  background-color: white;
+}
 /* main body */
 
 /* body-color */
