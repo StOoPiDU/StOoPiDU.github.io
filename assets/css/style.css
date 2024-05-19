@@ -206,10 +206,6 @@ blockquote * {
 
 /* main nav */
 
-/* main {
-  padding-left: 0px;
-  padding-top: 64px;
-} */
 nav {
   background: #fff;
   height: 64px;
@@ -224,27 +220,28 @@ nav.thin {
 .name-title {
   display: block;
   height: 100%;
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
   width: 100%;
   position: absolute;
 }
 .name-title>span, .name-title>a {
   position: relative;
-  line-height: 20px;
+  line-height: 24px;
 }
 .name-title a {
-  font-size: 22px;
+  font-size: 30px;
   display: block;
 }
 .name-title span {
   display: block;
-  font-size: 14px;
+  font-size: 19px;
 }
 
 /* main */
 
 main {
+  padding-top: 10px;
   background: url(../../assets/img/bg.png) repeat;
 }
 
