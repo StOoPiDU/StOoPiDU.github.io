@@ -207,11 +207,16 @@ blockquote * {
 /* main nav */
 
 nav {
-  display: block;
-  position: fixed;
-  top: 0;
-  z-index: 2;
+  background: white;
+  box-shadow: none;
+  height: 0;
 }
+
+/* nav {
+  background: rgb(149, 126, 212);
+  box-shadow: none;
+  height: 0;
+} */
 
 nav i {
   padding: 0 15px;
@@ -252,6 +257,22 @@ ul.side-nav {
 
 ul.side-nav li {
   padding: 0;
+}
+
+/* ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: rgb(48, 122, 207);
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
+} */
+
+ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: rgb(16, 202, 56);
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
 }
 
 ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
@@ -681,11 +702,15 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
+  ul.side-nav a {
+    line-height: 100%;
+    padding: 0;
+    width: 100%;
+  }
   nav {
-    display: block;
-    position: fixed;
-    top: 0;
-    z-index: 2;
+    background: #fff;
+    height: 64px;
+    position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
     color: #0600c6;
@@ -698,6 +723,12 @@ small {
   }
   .container {
     margin: 0 auto;
+  }
+  nav.hide-on-large.only.trigger {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
   }
   .name-title {
     display: block;
