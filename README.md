@@ -2,8 +2,8 @@
 > A list of all the official Free Game Findings links and related platforms with some examples and and direct links to follow. Think a simply LinkTree website, but with included details when possible. 
 
 > Originally forked from Varad's Portfolio Template. Adjustments mande to better support mobile and create alternative pages to fit my needs. Check out the original and :star: their work if you're interested.
-> Original - https://varadbhogayata.github.io
-> My work - https://github.com/StOoPiDU/StOoPiDU.github.io
+
+> Original: https://varadbhogayata.github.io - My work: https://github.com/StOoPiDU/StOoPiDU.github.io
 
 ### Website Preview
 <p align="center">
