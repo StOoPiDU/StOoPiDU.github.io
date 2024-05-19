@@ -221,17 +221,31 @@ nav.thin {
   top: 0;
   z-index: 2;
 }
+.name-title {
+  display: block;
+  height: 100%;
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+.name-title>span, .name-title>a {
+  position: relative;
+  line-height: 20px;
+}
+.name-title a {
+  font-size: 22px;
+  display: block;
+}
+.name-title span {
+  display: block;
+  font-size: 14px;
+}
 
 /* main */
 
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
-
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
 }
 
 dl {
