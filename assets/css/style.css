@@ -708,9 +708,10 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
-    height: 64px;
-    position: absolute;
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
   }
   nav a.button-collapse, nav a.button-collapse i {
     color: #0600c6;
@@ -723,12 +724,6 @@ small {
   }
   .container {
     margin: 0 auto;
-  }
-  nav.hide-on-large.only.trigger {
-    display: block;
-    position: fixed;
-    top: 0;
-    z-index: 2;
   }
   .name-title {
     display: block;
